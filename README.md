@@ -1,10 +1,10 @@
-# 🚀 Python Developer Assessment - Mini Test
+# Junior Software Developer Assessment - Mini Test
 
 Repositori ini berisi solusi teknikal untuk *Mini Test Assessment* posisi **Junior Software Developer**. Proyek ini dikerjakan dengan fokus pada pemecahan masalah logis, integrasi API yang aman (*Security Best Practices*), *Error Handling*, dan *User Experience (UX)* melalui antarmuka *Command Line* (CLI) yang interaktif.
 
 ---
 
-## 📂 Struktur Proyek
+## Struktur Proyek
 
 Proyek ini terbagi menjadi dua program utama:
 1. `main.py` : Solusi untuk Task 1 (Logika Sekuensial & Algoritma Prima).
@@ -12,7 +12,7 @@ Proyek ini terbagi menjadi dua program utama:
 
 ---
 
-## 🛠️ Task 1:
+## Task 1
 **File Utama:** `main.py`
 
 Program ini adalah pengembangan dari tes logika fundamental (variasi FizzBuzz dengan filter Bilangan Prima). 
@@ -22,7 +22,7 @@ Program ini adalah pengembangan dari tes logika fundamental (variasi FizzBuzz de
 * **Open-Closed Principle:** Logika translasi teks menggunakan metode *string concatenation* yang mudah dikembangkan (contoh: menambahkan kelipatan 7 tanpa merusak *nested if* yang ada).
 * **Analytical Post-Output:** Memberikan penjabaran metrik data setelah hasil ditampilkan kepada pengguna.
 
-### 📸 Bukti Eksekusi (Screenshot)
+### Bukti Eksekusi (Screenshot)
 ![Task 1 - Tampilan Awal & Input](./image/screenshot_task1%20(1).png.png)
 *Tampilan awal interaktif dan pemrosesan deret angka.*
 
@@ -31,7 +31,7 @@ Program ini adalah pengembangan dari tes logika fundamental (variasi FizzBuzz de
 
 ---
 
-## 🌦️ Task 2:
+## Task 2
 **File Utama:** `cuaca.py`
 
 Sistem pemantauan cuaca yang terintegrasi dengan **OpenWeatherMap API**. 
@@ -41,7 +41,7 @@ Sistem pemantauan cuaca yang terintegrasi dengan **OpenWeatherMap API**.
 * **Data Aggregation:** Karena API gratis memberikan data per 3 jam, sistem menggunakan `collections.defaultdict` untuk mengelompokkan data berdasarkan hari dan mengkalkulasi nilai suhu rata-rata (*mean*) demi memenuhi aturan *"Only show one temperature per day"*.
 * **Security & Credential Management:** API Key tidak di-*hardcode* di dalam skrip, melainkan dikelola secara aman menggunakan **Environment Variables** (`.env`).
 
-### 📸 Bukti Eksekusi (Screenshot)
+### Bukti Eksekusi (Screenshot)
 ![Task 2 - Pencarian Data API](./image/screenshot_task2%20(1).png.png)
 *Sistem memproses pencarian lokasi melalui Geocoding dan menampilkan kalkulasi suhu 5 hari ke depan.*
 
@@ -50,7 +50,7 @@ Sistem pemantauan cuaca yang terintegrasi dengan **OpenWeatherMap API**.
 
 ---
 
-## ⚙️ Panduan Instalasi & Eksekusi
+## Panduan Instalasi & Eksekusi
 
 Bagi peninjau (*reviewer*), silakan ikuti langkah berikut untuk menjalankan proyek ini di lingkungan lokal Anda:
 
